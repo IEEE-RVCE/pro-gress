@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import TableLet from '../components/TableLet';
 import styles from '../styles/Home.module.css';
 import { images } from '../lib/locations';
+import Elevator from '../components/Elevator';
 
 /**
  * Home page
@@ -15,6 +16,7 @@ export default function Home() {
                 <div className="spacer-top-margin-more">
                     <h1>Work in progress</h1>
                     <h3>Check back soon&#8482;</h3>
+                    <Elevator />
                 </div>
             </header>
         </div>

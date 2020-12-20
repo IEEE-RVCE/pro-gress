@@ -22,7 +22,9 @@ export default function TableLet({ iconlocs }: TableLetProps) {
                 <tr>
                     {iconlocs.map((e) => (
                         // <Image src={e.loc} width={e.width} height={e.height} alt={e.alt} key={e.key}></Image>
-                        <img src={e.loc} width={e.width} height={e.height} alt={e.alt} key={e.key}></img>
+                        <td key={e.key}>
+                            <img src={e.loc} width={e.width} height={e.height} alt={e.alt}></img>
+                        </td>
                     ))}
                 </tr>
             </tbody>
