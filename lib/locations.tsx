@@ -6,7 +6,7 @@ import { TableLetProps } from "../components/TableLet";
 export const images: TableLetProps = {
     iconlocs: [
         {
-            loc: '/ieee_rvce_new_blue.png',
+            loc: '/ieee_rvce_blue_scaled.png',
             width: 100,
             height: 100,
             alt: 'IEEE RVCE',
