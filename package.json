@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start",
         "export": "npm run build && next export",
-        "deploy": "cp CNAME out/ && gh-pages -r \"git@github.com:IEEE-RVCE/pro-gress.git\" -d out/"
+        "deploy": "touch out/.nojekyll && cp CNAME out/ && gh-pages -r \"git@github.com:IEEE-RVCE/pro-gress.git\" -d out/ -t"
     },
     "dependencies": {
         "next": "10.0.3",
